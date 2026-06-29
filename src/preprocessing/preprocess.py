@@ -7,7 +7,7 @@ print("Original Shape")
 print(df.shape)
 
 print("=" * 50)
-print(df.head)
+print(df.head())
 
 print("\n missing valus \n")
 print(df.isnull().sum())
